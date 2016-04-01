@@ -18,10 +18,10 @@ public class Adventure {
 
 		
 			String choice4 = null;
-			
+			do {
 				System.out.println("Would you like to engage? (y/n) ");
 				String choice3 = choice.nextLine();
-			do {
+				
 				if (choice3.equalsIgnoreCase("y")) {
 					System.out.println(name + " dies!");
 				}
